@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-flow: column;
+}
+.main{
+    background-color: grey;
+    display: grid;
+    width: 30%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    row-gap: 6px;
+    column-gap: 6px;
+    min-width: 384px;
+    min-height: 384px;
+    max-width: 300px;
+    max-height: 300px;
+}
+.main div{
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+p{
+    font-size: xx-large;
+}
+
+
